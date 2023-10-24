@@ -1,0 +1,46 @@
+package chap99_homework.homework1020;
+
+import java.util.Scanner;
+
+import chap99_homework.homework1020.classarrayex.ClassArrayEx;
+
+public class _01_classarrayex {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ClassArrayEx[] cae = new ClassArrayEx[10];
+		Scanner input = new Scanner(System.in);
+		
+
+		
+		String user = "";
+		System.out.println("문자열을 입력하세요");
+		user = input.nextLine();
+		String user1 = "";
+		System.out.println("가");
+		user1 = input.next();
+		
+		System.out.println("원본:" + user);
+		System.out.println("중복된 단어:" + user1);
+		String[] cae1 = user.split(" ");
+		int len = cae.length;
+
+        int count = 0;
+
+        for(int i = 0; i<len; i++){
+
+                if(user1.equals(cae[i])){
+
+                       count++;
+
+                }
+
+        }
+
+        System.out.println("가,바의 개수는:"+count);
+
+ 
+		
+	}
+
+}

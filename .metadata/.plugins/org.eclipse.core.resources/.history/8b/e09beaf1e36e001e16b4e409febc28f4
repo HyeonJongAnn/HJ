@@ -1,0 +1,24 @@
+package chap99_homework.homework1019;
+
+import java.util.Scanner;
+
+import chap99_homework.homework1019.employee.Employee;
+
+
+public class EmployeeEx01 {
+	
+	public static void main(String[] args ) {
+		// TODO Auto-generated method stub
+		Employee[] empArr = new Employee[100];
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int eno =0;
+		String name = "";
+		int pay = 0;
+		int bonus = 0; 
+		int hireYear = 0;
+		int workDay = 0;
+	}
+
+}

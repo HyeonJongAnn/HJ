@@ -1,0 +1,20 @@
+package chap01_java;
+
+
+
+public class ScannerExample {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		int pencils = 534;
+		int students = 30;
+		int result1 = 534/30;
+		int result2 = 534%30;
+		int pencilsPerStudent = (result1);
+		System.out.println(pencilsPerStudent);
+		int pencilsLeft =(result2);
+		System.out.println(pencilsLeft);
+		
+	}
+
+}

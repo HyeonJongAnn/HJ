@@ -1,0 +1,26 @@
+package chap06_class;
+
+import chap06_class.members.Members;
+
+public class _08_UseOfMembers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Members user1 = new Members("홍길동","hong","member",25);
+		
+		user1.Membersinfo();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

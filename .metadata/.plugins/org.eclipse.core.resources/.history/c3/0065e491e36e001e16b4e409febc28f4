@@ -1,0 +1,19 @@
+package chap99_homework.homework1019;
+
+import chap99_homework.homework1019.employee.Employee;
+import chap99_homework.homework1019.employee.EmployeeEx;
+
+
+public class EmployeeEx01 {
+	
+	public static void main(String[] args ) {
+		// TODO Auto-generated method stub
+		Employee em = new EmployeeEx();
+		em.eno(120123);
+		em.name();
+		em.pay(130000);
+		em.type(3);
+		em.getMonthPay();
+	}
+
+}

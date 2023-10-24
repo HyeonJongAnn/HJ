@@ -1,0 +1,18 @@
+package chap09_inherit.calc;
+
+public class Div extends Calculator {
+	
+	public Div() {
+		
+	}
+	
+	
+	public Div(int a, int b) {
+		this.a = a;
+		this.b = b;
+	}
+	
+	public int calculate() {
+		return a / b;
+	}
+}

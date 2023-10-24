@@ -1,0 +1,23 @@
+package chap99_homework.reverse;
+
+public class Reverse {
+	
+	String reverseString(String str) {
+		
+		return  str;	
+	
+		str[] str1 = new str{"s","t","r"};
+		
+		
+
+		
+	}
+	
+}
+	
+	
+
+	
+
+	
+

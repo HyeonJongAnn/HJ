@@ -1,0 +1,47 @@
+package homework_01.basic;
+
+public class Book {
+
+	public String title;
+	public String author;
+	public String publisher;
+	public int price;
+	
+	
+	public Book () {
+		
+	}
+	
+	public Book (String title,String author,
+			String publisher,int price) {
+		this.title = title;
+		this.author = author;
+		this.publisher = publisher;
+		this.price = price;
+		
+	}
+	
+	public void BookInfo() {
+		System.out.println("제목 : " + title);
+		System.out.println("저자 : " + author);
+		System.out.println("출판사 : " + publisher);
+		System.out.println("가격 : " + price);
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+

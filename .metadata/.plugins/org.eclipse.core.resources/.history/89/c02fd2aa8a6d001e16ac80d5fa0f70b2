@@ -1,0 +1,13 @@
+package chap06_class;
+
+import chap05_method.game.NumBaseball;
+
+public class _08_PlayNumBaseball {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		NumBaseball nb = new NumBaseball();
+		nb.start();
+	}
+
+}

@@ -1,0 +1,23 @@
+package chap09_inherit.calc;
+
+public class Add extends Calculator {
+	int c;
+	public Add() {
+		
+	}
+	
+	
+	public Add(int a, int b) {
+		super(a, b);
+		
+		
+	}
+	
+	public int calculate() {
+		return a + b;
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,46 @@
+package homework_01;
+
+import java.util.Scanner;
+
+import chap05_method.calc.CompleteCalculator;
+
+public class Operations {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		int a;
+		int b;
+		String operator = "";
+		
+		System.out.println("정수를 입력하세요.");
+		a = sc.nextInt();
+		System.out.println("정수를 입력하세요.");
+		b = sc.nextInt();
+		sc.nextLine();
+		System.out.println("연산자를 입력하세요.(+, -, *, /)");
+		operator = sc.nextLine(); 
+		
+		int result = 0;
+		CompleteCalculator ccalc = new CompleteCalculator();
+	
+	if(operator.equals("+")) {
+		result = ccalc.add(a, b);
+		System.out.println(a + " + " + b + " = " + result);
+	} else if(operator.equals("-")) {
+		result = ccalc.min(a, b);
+		System.out.println(a + " - " +	b + " = " + result);
+	} else if(operator.equals("*")) {
+		result = ccalc.mul(a, b);
+		System.out.println(a + " * " + b + " = " + result);
+	} else if(operator.equals("/")) {
+		result = ccalc.div(a, b);
+		System.out.println(a + " / " + b + " = " + result);
+	} else {
+		System.out.println("연산자를 잘못 입력하셨습니다.");
+	}
+	
+	sc.close();
+}
+}

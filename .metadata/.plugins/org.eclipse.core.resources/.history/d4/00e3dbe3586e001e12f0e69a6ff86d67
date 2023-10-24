@@ -1,0 +1,54 @@
+package chap99_homework.homework1019.employee;
+
+public class Employee {
+	int eno;
+	String name;
+	int pay;
+	int type;
+
+	public Employee() {
+	
+	}	
+	
+	public Employee(int eno, String name, 
+			int pay, int type) {
+		this.eno = eno;
+		this.name = name;
+		this.pay = pay;
+		this.type = type;
+	}
+	
+	public double getMoneyPay() {
+		System.out.println("급여 : " + pay);
+		return 1;
+	}
+	public void showEmplyeeInfo() {
+		System.out.println("사번 : " + eno);
+		System.out.println("이름 : " + name);
+		System.out.println("근무형태 : " + type);
+	}
+	public void type() {
+		if(type == 1) {
+			System.out.println("정규직");
+		}else if(type == 2) {
+			System.out.println("계약직");
+		}else if(type == 3) {
+			System.out.println("임시직");
+		}else {
+			System.out.println("잘못 입력하셨습니다.");
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

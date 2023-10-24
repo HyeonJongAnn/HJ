@@ -1,0 +1,66 @@
+package chap99_homework.homework1019.employee;
+
+public class EmployeeEx extends Employee {
+	
+	@Override
+	public void eno(int i) {
+		System.out.println("사번 : " + i);
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void name() {
+		// TODO Auto-generated method stub
+		System.out.println("이름 : " + name);
+	}
+
+	@Override
+	public void pay(int i) {
+		// TODO Auto-generated method stub
+		System.out.println("급여: " + i);
+	}
+
+	@Override
+	public void type(int i) {
+		System.out.print("근무형태: ");
+		if(i == 1) {
+			System.out.println("1: 정규직");
+		}else if(i == 2) {
+			System.out.println("2: 계약직");
+		}else if(i == 3) {
+			System.out.println("3. 임시직");
+		}else {
+			System.out.println("잘못 입력하셨습니다.");
+		}
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public double getMonthPay(int i) {
+		// TODO Auto-generated method stub
+	 if (i == 1) {
+		 int(pay/12 + bonus/12);
+	 }else if(i == 2) {
+		 int(pay/12);
+	 }else if (i == 3) {
+		 int(pay * workDay);
+	 }
+		return 0;
+	}
+
+	@Override
+	public void showEmployeeInfo() {
+		
+		
+	}
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+	
+	
+

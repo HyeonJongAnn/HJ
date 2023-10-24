@@ -1,0 +1,12 @@
+package chap11_abstraction.tv;
+
+public abstract class Tv {
+	public abstract int powerOn();
+	public abstract int powerOff();
+	public abstract int operate();
+	public abstract int moveTo();
+	public abstract int channelUp();
+	public abstract int channelDown();
+	
+	
+}

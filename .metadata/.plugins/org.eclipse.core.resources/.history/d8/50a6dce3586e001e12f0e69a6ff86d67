@@ -1,0 +1,14 @@
+package chap99_homework.homework1019;
+
+import chap99_homework.homework1019.employee.Employee;
+
+public class EmployeePlay {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee em = new Employee();
+		em.getMoneyPay();
+		em.showEmplyeeInfo();
+	}
+
+}

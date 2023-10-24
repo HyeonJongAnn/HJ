@@ -1,0 +1,32 @@
+package chap99_homework.homework1019.employee;
+
+public class EmployeeEx01 extends Employee {
+	int bonus = 0;
+	int hireYear = 0;
+	int workDay = 0;
+	public int bonus() {
+		(this.pay / 12) + (bonus / 12);
+	}
+	public int hireYear() {
+		this.pay / 12;
+	}
+	public int workDay() {
+		this.pay * workDay;
+	}
+	
+	public int getMonthPay() {
+		if(this.type == 1) {
+			System.out.println("계약직 :int workDay, " + "월급 = " +(int bonus);
+		}else if(this.type == 2) {
+			System.out.println("계약직 :int workDay, " + "월급 = " +(int hireYear);
+		}else if(this.type == 3){
+			System.out.println("계약직 :int workDay, " + "월급 = " +(int workDay));
+		}
+	}
+	
+	
+	
+	
+	
+	
+}

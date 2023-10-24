@@ -1,0 +1,30 @@
+package homework;
+
+public class Advance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1.
+		String result;
+		String str = "dBEfIZ";
+		String str1 = "ajEfcC";
+		char a1 = str.charAt(0);
+		result = a1 == 'd' ? str1 : str ;
+		System.out.println(result);
+		
+		// 2.
+		
+		int omanCnt = 0;
+		int manCnt = 0;
+		int ochCnt = 0;
+		int chCnt = 0;
+		int obakCnt = 0;
+		int bakCnt = 0;
+		int osipCnt = 0;
+		int sipCnt = 0;
+		
+		
+		
+
+	}
+}

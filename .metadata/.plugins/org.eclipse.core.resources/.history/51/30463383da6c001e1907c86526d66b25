@@ -1,0 +1,92 @@
+package homework;
+
+public class basic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//1.
+		int num = 10;
+		System.out.println(++num);
+		System.out.println(++num);
+		System.out.println(num--);
+		System.out.println(--num);
+		System.out.println(num--);
+		System.out.println(--num);
+		
+		//2.
+		int a = 10;
+		int b = 20;
+		
+		System.out.println( a < 11);
+		System.out.println( b > 20);
+		 
+		//3.
+		int i = 10;
+		while(i>=1) {
+			System.out.println(i + "");
+			i--;
+		}
+		
+		//4.
+		int j = 10;
+		do {
+			System.out.println(j + "");
+			j--;
+		}while(j>=1); {
+		}  
+		
+		//5.
+		for(int k = 10; k>=1; k--) {
+			System.out.println(k + "");
+		}
+		
+		//6.
+		int sum = 0;
+		
+		int c = 1;
+		
+		while(c<=100) {
+			sum += c;
+			c++;
+		}
+		System.out.println("1~" + (c-1) + "합 : " + sum);
+		
+		//7.
+		do {
+			System.out.println("1~" + (c-1) + "합 : " + sum);
+			
+		}while(c<=100); {
+			
+			c++;
+		}  
+		
+		//8.
+		int sum1 = 0;
+		int d;
+		for(d = 1; d<=100; d++) {
+			sum1 += d;
+		}
+			
+			System.out.println("1~" + (d-1) + "합 : " + sum1);
+		
+		//9.
+		int[] tenArr = new int[10];
+		int num3 = 0;
+		int index = 9;
+		
+		while(index < tenArr.length) {
+			++num3;
+			 
+			if(num3 % 3 == 0) {
+				
+				tenArr[index--] = num3;
+			}  
+			}
+		for(int t = 0; t < tenArr.length; t++) {
+			System.out.println(tenArr[t]);
+		}
+		
+		}
+	
+
+}

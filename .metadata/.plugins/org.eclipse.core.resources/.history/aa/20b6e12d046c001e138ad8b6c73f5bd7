@@ -1,0 +1,13 @@
+package chap01_java;
+
+
+
+public class ScannerExample {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		
+		 
+	}
+
+}

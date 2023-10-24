@@ -1,0 +1,104 @@
+package homework;
+
+import java.util.Scanner;
+
+public class Advance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1.
+		String result;
+		String str = "dBEfIZ";
+		String str1 = "ajEfcC";
+		char a1 = str.charAt(0);
+		result = a1 == 100 ? str1 : str ;
+		System.out.println(result);
+	
+		// 2.
+		Scanner sc = new Scanner(System.in);
+		System.out.println("금액을 입력하세요.");
+	     int amount =sc.nextInt();
+	     
+	     int omanCnt = amount / 50000;
+	     amount %= 50000;
+			
+		 int manCnt = amount / 10000;
+			amount %= 10000; 
+	        
+		 int ochCnt = amount / 5000;
+			amount %= 5000;
+	                
+		 int chCnt = amount / 1000;
+		 amount %= 1000;
+	            
+		 int obakCnt = amount / 500;
+			amount %= 500;
+	            
+		 int bakCnt = amount / 100;
+			amount %= 100;
+			
+		 int osipCnt = amount / 50;
+			amount %= 50;
+			
+		 int sipCnt = amount / 10;
+			amount %= 10;
+	     
+System.out.println("<오만원: " + omanCnt + "매, 만원: " + manCnt + "매, 오천원: " + ochCnt + "매, 천원: " + chCnt + "매, 오백원: " + obakCnt + "개, 백원: " + bakCnt + "개, 오십원: " + osipCnt + "개, 십원: " + sipCnt + "개>" +"입니다.");
+		
+		// 3.
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("정수를 입력하세요.");
+		int num = scanner.nextInt();
+		int a = num/10;
+		int b = num%10;
+		int cnt=0;
+		
+		if(num<10) {
+			if(b%3 == 0)
+				cnt++;
+		}else {
+			if(a%3 == 0) {
+				cnt++;
+			}
+			if(b%3 == 0 ){
+				cnt++;
+			}
+		}
+		
+		switch(cnt) {
+		case 0:
+			System.out.println("박수 없음");
+			break;
+		case 1:
+			System.out.println("박수짝");
+			break;
+		case 2:
+			System.out.println("박수짝짝");
+			break;	
+		}	
+		//4.
+		int index = 0;
+		
+		for(int i = 0; i <=5; i++){
+			index = index + 1;
+		} for(int j = 0; j <= 5; j++) {
+		System.out.println("*");
+		}
+		
+		
+		
+		
+		
+		
+		
+			
+			
+		}
+			
+			
+			
+	}
+		
+
+		
+

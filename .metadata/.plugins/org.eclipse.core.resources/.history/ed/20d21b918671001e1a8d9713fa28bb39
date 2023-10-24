@@ -1,0 +1,29 @@
+package chap99_homework.homework1020;
+
+import java.util.Scanner;
+
+import chap99_homework.homework1020.classarrayex.ClassArrayEx;
+
+public class _01_classarrayex {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ClassArrayEx[] cae = new ClassArrayEx[1];
+		Scanner input = new Scanner(System.in);
+		String user = "";
+		String user1 = "";
+				
+		cae[0] = new ClassArrayEx(user,user1);
+		
+		
+		System.out.println("문자열을 입력하세요");
+		user = input.next();
+		if(user == "가") {
+			System.out.println("가의 개수는" + user + "개 입니다");
+		}
+		
+		
+		
+	}
+
+}

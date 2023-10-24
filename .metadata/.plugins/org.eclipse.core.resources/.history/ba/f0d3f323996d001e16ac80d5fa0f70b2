@@ -1,0 +1,13 @@
+package homework_01;
+
+import homework_01.Student;
+
+public class _02_Student {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student stu = new Student();
+		stu.studentInfo();
+	}
+
+}

@@ -1,0 +1,14 @@
+package chap09_inherit;
+
+import chap09_inherit.calc.Add;
+import chap09_inherit.calc.Calculator;
+
+public class _03_Calculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calculator calc = new Calculator();
+		
+	}
+
+}

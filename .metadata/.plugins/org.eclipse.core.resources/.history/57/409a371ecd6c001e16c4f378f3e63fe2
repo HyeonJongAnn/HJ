@@ -1,0 +1,58 @@
+package homework;
+
+public class Advance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 1.
+		String result;
+		String str = "dBEfIZ";
+		String str1 = "ajEfcC";
+		char a1 = str.charAt(0);
+		result = a1 == 100 ? str1 : str ;
+		System.out.println(result);
+	}	
+		// 2.
+		public class advance {
+		public int omanCnt;
+		public int manCnt;
+		public int ochCnt;
+		public int chCnt;
+		public int obakCnt;
+		public int bakCnt;
+		public int osipCnt;
+		public int sipCnt;
+		
+		public void allCount(int money) {
+		    omanCnt = money / 50000;
+		    money  %= 50000;
+		    
+		    manCnt = money / 10000;
+			money %= 10000; 
+	        
+			ochCnt = money / 5000;
+			money %= 5000;
+	                
+			chCnt = money / 1000;
+			money %= 1000;
+	            
+			obakCnt = money / 500;
+			money %= 500;
+	            
+			bakCnt = money / 100;
+			money %= 100;
+			
+			osipCnt = money / 50;
+			money %= 50;
+			
+			sipCnt = money / 10;
+			money %= 10;
+		     
+		}
+		public void printMoneyCount() {
+			System.out.println("오만원: " + omanCnt + "장, 만원: " + manCnt + "장, 오천원: " + ochCnt + "장, 천원: " + chCnt + "장, 오백원: " + obakCnt + "개, 백원: " + bakCnt + "개, 오십원: " + osipCnt + "개, 십원: " + sipCnt + "개");
+		}
+		}
+}	
+		
+

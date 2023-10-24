@@ -1,0 +1,12 @@
+package chap99_homework.homework1019.employee;
+
+public class EmployeeEx01 extends EmployeeEx {
+	
+	int workDay = 1;
+	
+	public void Fulltime(int bonus) {
+		if(this.type == 1) {
+	
+		
+	}
+}

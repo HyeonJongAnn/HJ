@@ -1,0 +1,46 @@
+package chap99_homework.homework1019.employee;
+
+public abstract class Employee {
+	public int i;
+
+	
+	int eno;
+	String name;
+	int pay;
+	int type;
+
+	public Employee() {
+	
+	}	
+	
+	public Employee(int eno, String name, 
+			int pay, int type) {
+		this.eno = eno;
+		this.name = name;
+		this.pay = pay;
+		this.type = type;
+	}
+	
+	public abstract void eno(int i);
+	public abstract void name();
+	public abstract void pay(int i);
+	public abstract void type(int i);
+	public abstract double getMonthPay(int i);
+	public abstract void showEmployeeInfo();
+
+	
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+}

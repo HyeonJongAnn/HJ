@@ -1,0 +1,31 @@
+package chap99_homework.homework1019.employee;
+
+public class EmployeeEx extends Employee {
+	int bonus = 10;
+
+
+	@Override
+	public double getMonthPay() {
+		// TODO Auto-generated method stub
+		return (pay / 12) + (bonus / 12);
+		
+	}
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+	
+	
+	
+

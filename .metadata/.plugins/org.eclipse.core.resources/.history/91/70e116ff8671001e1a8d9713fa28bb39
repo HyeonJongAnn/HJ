@@ -1,0 +1,16 @@
+package chap99_homework.homework1020.classarrayex;
+
+public class ClassArrayEx {
+	private String str;
+	private String str1;
+	
+	public ClassArrayEx() {
+		
+	}
+	
+	public ClassArrayEx(String str, String str1) {
+		this.str = str;
+		this.str1 = str1;
+	}
+	
+}
